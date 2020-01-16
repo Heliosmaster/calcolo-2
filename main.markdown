@@ -79,7 +79,7 @@ con questa sostituzione, il determinante della matrice Jacobiana
 è esattamente $\rho$.
 A questo punto:
 $$
-\iint f(x,y) dxdy = \iint g(\rho,\theta) \rho d\rho d\theta
+\iint\limits_D f(x,y) dxdy = \iint\limits_{D'} g(\rho,\theta) \rho d\rho d\theta
 $$
 
 ovviamente sostituendo il dominio.
