@@ -36,6 +36,30 @@ Arrivati a questo punto occorre studiare la matrice.
 
 # Massimi e minimi vincolati
 
+Si ha una funzione $f(x,y)$ e una funzione vincolo $g(x,y)$.
+Per calcolare i punti critici vincolati si agisce in maniera simile al metodo
+per i punti critici nelle "normali" funzioni. In questo caso però vanno utilizzati
+i moltiplicatori di Lagrange.
+
+$$
+\Lambda(x,y) = f(x,y) + \lambda g(x,y)
+$$
+
+Vanno a questo punto calcolate le derivate prime rispetto alle varie incognite
+(inclusa $\lambda$) e messe a sistema per ricavare i punti critici lungo il 
+vincolo.
+
+$$
+\begin{cases}
+\frac{\partial f}{\partial x} = 0\\
+\frac{\partial f}{\partial y} = 0\\
+\frac{\partial f}{\partial \lambda} = 0
+\end{cases}
+$$
+
+Avendo i punti, si agisce esattamente come i regolari punti critici
+(matrice Hessiana).
+
 # Sostituzione di variabile per integrali doppi
 
 # Equazioni differenziali del primo ordine omogenee a variabili separabili
