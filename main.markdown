@@ -62,6 +62,28 @@ Avendo i punti, si agisce esattamente come i regolari punti critici
 
 # Sostituzione di variabile per integrali doppi
 
+La sostituzione di variabili negli integrali doppi va eseguita facendo
+riferimento alla matrice Jacobiana della sosituzione.
+
+Esempio più importante di sostituzione è la sostituzione in
+coordinate polari.
+
+$$
+\begin{cases}
+x = \rho cos \theta\\
+y = \rho sin \theta
+\end{cases}
+$$
+
+con questa sostituzione, il determinante della matrice Jacobiana
+è esattamente $\rho$.
+A questo punto:
+$$
+\iint f(x,y) dxdy = \iint g(\rho,\theta) \rho d\rho d\theta
+$$
+
+ovviamente sostituendo il dominio.
+
 # Equazioni differenziali del primo ordine omogenee a variabili separabili
 
 Separare i termini $y$ da i termini $x$ e integrare entrambi i membri.
