@@ -129,7 +129,7 @@ Si calcolano i valori di $\lambda_{1,2}$
 2. Se $\lambda_1 = \lambda_2$
    la soluzione è $y = e^{\lambda x} (c_1 + c_2 x)$
 3. Se $\lambda_{1,2}$ sono complessi e coniugati
-   la soluzione è $y = e^{\alpha x} (c_1 e^{i \beta x} + c_2 e^{-i \beta x})$
+   la soluzione è $y = e^{\alpha x} (c_1 cos(\beta x) + c_2 sin(\beta x))$
 
 # Equazioni differenziali del secondo ordine non omogenee
 
