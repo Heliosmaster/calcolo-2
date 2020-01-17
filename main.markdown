@@ -180,7 +180,7 @@ $$y(x) = z(x) + \phi(x)$$
 dove $z(x)$ è l'integrale generale dell'omogenea associata e 
 $\phi(x)$ è una soluzione particolare dell'equazione non omogenea.
 
-Definiamo $g(x,y)$ l'equazione di secondo grado in $\lambda$ associata
+Definiamo $g(\lambda)$ l'equazione di secondo grado in $\lambda$ associata
 all'equazione di secondo ordine omogenea associata.
 
 Per trovare $z(x)$ va risolta l'equazione omogenea associata dell'equazione
@@ -190,28 +190,28 @@ Per trovare $\phi(x)$:
 
 1. Se $c(x)$ è un polinomio di grado $n$:
 
-   1. Se $g(x)$ non ammette come soluzione $0$, $\phi(x)$ è un polinomio 
+   1. Se $g(\lambda)$ non ammette come soluzione $0$, $\phi(x)$ è un polinomio 
       di grado $n$.
-   2. Se $g(x)$ ammette come soluzione $0$ con molteplicità $1$, cioè $a \neq 0$
+   2. Se $g(\lambda)$ ammette come soluzione $0$ con molteplicità $1$, cioè $a \neq 0$
       e $b = 0$, allora $\phi(x) = x p_n$
-   3. Se $g(x)$ ammette come soluzione $0$ con molteplicità $2$, cioè 
+   3. Se $g(\lambda)$ ammette come soluzione $0$ con molteplicità $2$, cioè 
       $a = b = 0$, allora $\phi(x) = x^2 p_n$
 
 2. Se $c(x) = p_n(x) e^{\alpha x}$:
 
-   1. Se $\alpha$ non è soluzione di $g(x)$ allora $\phi(x) = 
+   1. Se $\alpha$ non è soluzione di $g(\lambda)$ allora $\phi(x) = 
       p_n(x) e^{\alpha x}$
-   2. Se $\alpha$ è soluzione di $g(x)$ con molteplicità $r$ allora $\phi(x)
+   2. Se $\alpha$ è soluzione di $g(\lambda)$ con molteplicità $r$ allora $\phi(x)
       = x^r p_n(x) e^{\alpha x}$
 
 3. Se $c(x) = p_{1n}(x) e^{\alpha x} cos(\beta x) + 
    p_{2n}(x) e^{\alpha x} sin(\beta x)$ allora:
 
-   1. Se $\alpha + i \beta$ non è soluzione di $g(x)$:
+   1. Se $\alpha + i \beta$ non è soluzione di $g(\lambda)$:
       $\phi(x) = e^{\alpha x} (A(x) cos(\beta x) + 
       B(x) sin(\beta x))$, dove $A(x)$ e $B(x)$ sono polinomi di grado non 
       superiore al grado massimo tra $p_1n(x)$ e $p_2n(x)$
-   2. Se $\alpha + i \beta$ è soluzione di $g(x)$:
+   2. Se $\alpha + i \beta$ è soluzione di $g(\lambda)$:
       $\phi(x) = x e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$.
 
 4. Se $c(x) = c_1(x) + c_2(x)$ è possibile applicare uno dei procedimenti 
