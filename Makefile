@@ -8,8 +8,11 @@ main.pdf: main.markdown meta.yaml
 	$(PANDOC)\
 	    --standalone\
 	    --metadata-file=meta.yaml\
-	    --number-sections\
 	    --variable=documentclass:article\
+	    --variable=margin-top:2cm\
+	    --variable=margin-right:2cm\
+	    --variable=margin-bottom:2.5cm\
+	    --variable=margin-left:2cm\
 	    --variable=papersize:a4\
 	    -o $@ $<
 
