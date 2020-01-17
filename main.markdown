@@ -76,22 +76,6 @@ y = \rho sin \theta
 \iint \limits_{D'} \rho \, g(\rho, \theta) \, d\rho \, d\theta
 $$
 
-# Integrali impropri
-
-Un integrale doppio improprio è un integrale doppio definito che rappresenta
-uno spazio infinito.
-
-$$
-\iint\limits_k^\infty f(x,y)dxdy = 
-\lim_{c \to \infty} \iint\limits_k^c f(x,y) dxdy
-$$
-
-Occorre risolvere quindi l'integrale e successivamente il limite in funzione
-di $c$.
-
-N.B: Non è necessario avere $\pm \infty$ nei limiti dell'integrale per definirlo
-improprio. Bisogna fare attenzione alle discontinuità della funzione integranda.
-
 # Equazioni differenziali del primo ordine omogenee a variabili separabili
 
 Separare i termini $y$ da i termini $x$ e integrare entrambi i membri.
