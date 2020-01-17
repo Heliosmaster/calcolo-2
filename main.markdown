@@ -1,38 +1,22 @@
-# Massimi e minimi
+# Determinare massimi e minimi
 
-Dopo aver calcolato e rappresentato il dominio della nostra funzione, bisogna
-mettere a sistema le derivate parziali.
+È data una funzione $f(x, y)$.
 
-$$ z = f(x,y) $$
+Per individuare i punti critici si calcolano $f_x$ e $f_y$. Le soluzioni
+del sistema con $f_x(x, y) = 0$ e $f_y(x, y) = 0$ sono i punti critici.
 
-$$
-\begin{cases}
-\frac{\partial f}{\partial x} = 0\\
-\frac{\partial f}{\partial y} = 0
-\end{cases}
-$$
+Per determinare la tipologia di un punto critico si calcolano $f_xx$,
+$f_{xy}$ e $f_{yy}$ e con tali derivate parziali si costruisce la relativa
+matrice Hessiana.
 
-Da questo sistema, se ammette soluzioni, si otterranno i punti critici della
-funzione che occorre studiare attraverso la matrice Hessiana.
-
-Occorre quindi calcolare le derivate seconde della funzione
-(per il Teorema di Schwartz le derivate miste sono equivalenti)
-e costruire la matrice Hessiana.
-
-$$
-\begin{pmatrix}
-\frac{\partial^2 f}{\partial x^2} & 
-\frac{\partial}{\partial x} \frac{\partial f}{\partial y}\\
-\frac{\partial}{\partial y} \frac{\partial f}{\partial x} &
-\frac{\partial^2 f}{\partial y^2}
-\end{pmatrix}
-$$
-
-Arrivati a questo punto occorre studiare la matrice.
-1. Se la matrice è DEFINITA POSITIVA, allora il punto in questione è un minimo.
-2. Se la matrice è DEFINITA NEGATIVA, allora il punto in questione è un massimo.
-3. Se la matrice è INDEFINITA (ovvero non è semidefinita positiva e 
-   semidefinita negativa), allora è un punto sella.
+* Se $det(H(\overline{x}, \overline{y})) < 0$ allora
+  $(\overline{x}, \overline{y})$ è un punto di flesso
+* Se $det(H(\overline{x}, \overline{y})) > 0$ e
+  $f_{xx}(\overline{x}, \overline{y}) < 0$ allora
+  $(\overline{x}, \overline{y})$ è un punto di massimo
+* Se $det(H(\overline{x}, \overline{y})) > 0$ e
+  $f_{xx}(\overline{x}, \overline{y}) > 0$ allora
+  $(\overline{x}, \overline{y})$ è un punto di minimo
 
 # Massimi e minimi vincolati
 
