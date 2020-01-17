@@ -29,7 +29,9 @@ del tipo:
 $$
 \begin{aligned}
 &\mathcal{L} = f(x, y) + \lambda \, g(x, y)
-&\quad \text{per 2 incognite} \\
+&\quad \text{per 2 incognite}
+% ----------
+\\
 % ----------
 &\mathcal{L} = f(x, y, z) + \lambda_1 \, g_1(x, y, z)
                           + \lambda_2 \, g_2(x, y, z)
@@ -44,12 +46,13 @@ derivate.
 Individuati i punti critici, per determinarne la tipologia, si procede come
 descritto nella sezione precedente.
 
-# Piano tangente
+# Determinare il piano tangente a una funzione
 
 Nel caso in cui, in uno studio di funzione, il determinante della matrice
 Hessiana sia 0, va calcolato il piano tangente alla funzione per determinare
-la natura del punto. Per calcolare l'equazione del piano tangente, occorre
-risolvere:
+la natura del punto.
+
+Per calcolare l'equazione del piano tangente, occorre risolvere:
 
 $$
 det
@@ -78,22 +81,17 @@ $$
 
 # Equazioni differenziali del primo ordine non omogenee
 
-Formula di Bernoulli:
-
 $$
-\begin{aligned}
-a(x) y' &= b(x) y + c(x) \\
-y' &= \underbrace{\frac{b(x)}{a(x)}}_{p(x)} y + 
-\underbrace{\frac{c(x)}{a(x)}}_{q(x)} \\
-\end{aligned}
-$$
-
-$$
-P(x) = \int p(x) dx \, \, \text{È un integrale particolare, consideriamo c = 0}
+a(x) \, y' = b(x) \, y + c(x)
+% ----------
+\quad \Longrightarrow \quad
+% ----------
+y' = \underbrace{\frac{b(x)}{a(x)}}_{p(x)} y
+     + \underbrace{\frac{c(x)}{a(x)}}_{q(x)}
 $$
 
 $$
-y = e^{P(x)} \int e^{-P(x)} q(x) dx
+y = e^{\int p(x) \, dx} \int e^{- \int p(x) \, dx} \, q(x) \, dx
 $$
 
 # Equazioni differenziali del secondo ordine omogenee
