@@ -60,6 +60,30 @@ $$
 Avendo i punti, si agisce esattamente come i regolari punti critici
 (matrice Hessiana).
 
+# Piano tangente
+
+Nel caso in cui, in uno studio di funzione, il determinante della matrice
+Hessiana sia 0, va calcolato il piano tangente alla funzione per determinare
+la natura del punto. Per calcolare l'equazione del piano tangente, occorre
+risolvere:
+
+$$
+det
+\begin{pmatrix}
+x - x_p & y - y_p & z - z_p \\
+\frac {\partial S_1}{\partial x} & \frac {\partial S_2}{\partial x} &
+\frac {\partial S_3}{\partial x} \\
+\frac {\partial S_1}{\partial y} & \frac {\partial S_2}{\partial y} &
+\frac {\partial S_3}{\partial y}
+\end{pmatrix} = 0
+$$
+
+
+
+
+
+
+
 # Sostituzione di variabile per integrali doppi
 
 La sostituzione di variabili negli integrali doppi va eseguita facendo
