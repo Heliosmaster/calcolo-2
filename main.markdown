@@ -18,31 +18,30 @@ matrice Hessiana.
   $f_{xx}(\overline{x}, \overline{y}) > 0$ allora
   $(\overline{x}, \overline{y})$ è un punto di minimo
 
-# Massimi e minimi vincolati
+# Determinare massimi e minimi vincolati
 
-Si ha una funzione $f(x,y)$ e una funzione vincolo $g(x,y)$.
-Per calcolare i punti critici vincolati si agisce in maniera simile al metodo
-per i punti critici nelle "normali" funzioni. In questo caso però vanno utilizzati
-i moltiplicatori di Lagrange.
+Sono date una funzione $f$ in $n$ incognite e $n-1$ funzioni
+$g_1, \dots, g_{n-1}$ vincoli di $f$.
 
-$$
-\Lambda(x,y) = f(x,y) + \lambda g(x,y)
-$$
-
-Vanno a questo punto calcolate le derivate prime rispetto alle varie incognite
-(inclusa $\lambda$) e messe a sistema per ricavare i punti critici lungo il 
-vincolo.
+Per individuare i punti critici si costruisce la funzione di Lagrange
+del tipo:
 
 $$
-\begin{cases}
-\frac{\partial f}{\partial x} = 0\\
-\frac{\partial f}{\partial y} = 0\\
-\frac{\partial f}{\partial \lambda} = 0
-\end{cases}
+\begin{aligned}
+&\mathcal{L} = f(x, y) + \lambda \, g(x, y)
+&\quad \text{per 2 incognite} \\
+% ----------
+&\mathcal{L} = f(x, y, z) + \lambda_1 \, g_1(x, y, z) + \lambda_2 \, g_2(x, y, z)
+&\quad \text{per 3 incognite}
+\end{aligned}
 $$
 
-Avendo i punti, si agisce esattamente come i regolari punti critici
-(matrice Hessiana).
+Quindi si calcolano le derivate parziali $\mathcal{L}_x$, $\mathcal{L}_y$,
+$\mathcal{L}_{\lambda_n}$ e si risolve il sistema omogeneo composto da tali
+derivate.
+
+Individuati i punti critici, per determinarne la tipologia, si procede come
+descritto nella sezione precedente.
 
 # Piano tangente
 
