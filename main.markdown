@@ -76,10 +76,6 @@ y = \rho sin \theta
 \iint \limits_{D'} \rho \, g(\rho, \theta) \, d\rho \, d\theta
 $$
 
-# Equazioni differenziali del primo ordine omogenee a variabili separabili
-
-Separare i termini $y$ da i termini $x$ e integrare entrambi i membri.
-
 # Equazioni differenziali del primo ordine non omogenee
 
 Formula di Bernoulli:
