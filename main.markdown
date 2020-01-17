@@ -181,4 +181,10 @@ $$
 $$
 \frac {(A + B)x + A - B}{(x + 1)(x - 1)}
 $$
-In sistema $A + B = 0$,  $A - B = k$
+Per trovare le due costanti A e B:
+$$
+\begin{cases}
+A + B = 0\\
+A - B = k
+\end{cases}
+$$
