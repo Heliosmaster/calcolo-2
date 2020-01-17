@@ -31,7 +31,8 @@ $$
 &\mathcal{L} = f(x, y) + \lambda \, g(x, y)
 &\quad \text{per 2 incognite} \\
 % ----------
-&\mathcal{L} = f(x, y, z) + \lambda_1 \, g_1(x, y, z) + \lambda_2 \, g_2(x, y, z)
+&\mathcal{L} = f(x, y, z) + \lambda_1 \, g_1(x, y, z)
+                          + \lambda_2 \, g_2(x, y, z)
 &\quad \text{per 3 incognite}
 \end{aligned}
 $$
@@ -61,29 +62,19 @@ x - x_p & y - y_p & z - z_p \\
 \end{pmatrix} = 0
 $$
 
-# Sostituzione di variabile per integrali doppi
-
-La sostituzione di variabili negli integrali doppi va eseguita facendo
-riferimento alla matrice Jacobiana della sosituzione.
-
-Esempio più importante di sostituzione è la sostituzione in
-coordinate polari.
+# Sostituzione di variabile con coordinate polari in integrali doppi
 
 $$
 \begin{cases}
-x = \rho cos \theta\\
+x = \rho cos \theta \\
 y = \rho sin \theta
 \end{cases}
+% ----------
+\qquad
+% ----------
+\iint \limits_D f(x, y) \, dx \, dy =
+\iint \limits_{D'} \rho \, g(\rho, \theta) \, d\rho \, d\theta
 $$
-
-con questa sostituzione, il determinante della matrice Jacobiana
-è esattamente $\rho$.
-A questo punto:
-$$
-\iint\limits_D f(x,y) dxdy = \iint\limits_{D'} g(\rho,\theta) \rho d\rho d\theta
-$$
-
-ovviamente sostituendo il dominio.
 
 # Integrali impropri
 
