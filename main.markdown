@@ -190,7 +190,7 @@ Per trovare $\phi(x)$:
 
 1. Se $c(x)$ è un polinomio di grado $n$:
 
-   1. Se $g(\lambda)$ non ammette come soluzione $0$, $\phi(x)$ è un polinomio 
+   1. Se $g(\lambda)$ NON ammette come soluzione $0$, $\phi(x)$ è un polinomio 
       di grado $n$.
    2. Se $g(\lambda)$ ammette come soluzione $0$ con molteplicità $1$, cioè $a \neq 0$
       e $b = 0$, allora $\phi(x) = x p_n$
@@ -199,7 +199,7 @@ Per trovare $\phi(x)$:
 
 2. Se $c(x) = p_n(x) e^{\alpha x}$:
 
-   1. Se $\alpha$ non è soluzione di $g(\lambda)$ allora $\phi(x) = 
+   1. Se $\alpha$ NON è soluzione di $g(\lambda)$ allora $\phi(x) = 
       p_n(x) e^{\alpha x}$
    2. Se $\alpha$ è soluzione di $g(\lambda)$ con molteplicità $r$ allora $\phi(x)
       = x^r p_n(x) e^{\alpha x}$
@@ -207,9 +207,9 @@ Per trovare $\phi(x)$:
 3. Se $c(x) = p_{1n}(x) e^{\alpha x} cos(\beta x) + 
    p_{2n}(x) e^{\alpha x} sin(\beta x)$ allora:
 
-   1. Se $\alpha + i \beta$ non è soluzione di $g(\lambda)$:
+   1. Se $\alpha + i \beta$ NON è soluzione di $g(\lambda)$:
       $\phi(x) = e^{\alpha x} (A(x) cos(\beta x) + 
-      B(x) sin(\beta x))$, dove $A(x)$ e $B(x)$ sono polinomi di grado non 
+      B(x) sin(\beta x))$, dove $A(x)$ e $B(x)$ sono polinomi di grado NON 
       superiore al grado massimo tra $p_1n(x)$ e $p_2n(x)$
    2. Se $\alpha + i \beta$ è soluzione di $g(\lambda)$:
       $\phi(x) = x e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$.
