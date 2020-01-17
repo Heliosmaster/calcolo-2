@@ -78,12 +78,6 @@ x - x_p & y - y_p & z - z_p \\
 \end{pmatrix} = 0
 $$
 
-
-
-
-
-
-
 # Sostituzione di variabile per integrali doppi
 
 La sostituzione di variabili negli integrali doppi va eseguita facendo
@@ -107,6 +101,22 @@ $$
 $$
 
 ovviamente sostituendo il dominio.
+
+# Integrali impropri
+
+Un integrale doppio improprio è un integrale doppio definito che rappresenta
+uno spazio infinito.
+
+$$
+\iint\limits_k^\infty f(x,y)dxdy = 
+\lim_{c \to \infty} \iint\limits_k^c f(x,y) dxdy
+$$
+
+Occorre risolvere quindi l'integrale e successivamente il limite in funzione
+di $c$.
+
+N.B: Non è necessario avere $\pm \infty$ nei limiti dell'integrale per definirlo
+improprio. Bisogna fare attenzione alle discontinuità della funzione integranda.
 
 # Equazioni differenziali del primo ordine omogenee a variabili separabili
 
