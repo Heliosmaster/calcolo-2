@@ -117,58 +117,59 @@ $$
 3. Se $\lambda_{1,2}$ sono $(\alpha \pm i \beta)$
    la soluzione è $y = e^{\alpha x} (c_1 cos(\beta x) + c_2 sin(\beta x))$
 
-# Equazioni differenziali del secondo ordine non omogenee
+# Equazioni differenziali del secondo ordine lineari non omogenee
 
-Un'equazione differenziale del secondo ordine non omogenea ha la forma:
 $$
-y'' + p(x) y' + q(x) y = c(x)
+\begin{aligned}
+& \text{Data una eq. differenziale}
+& \quad
+& ay'' + by' + cy = d(x)
+% ----------
+\\
+% ----------
+& \text{La soluzione è}
+& \quad
+& y(x) = z(x) + \phi(x)
+% ----------
+\\
+% ----------
+& \text{Omogenea associata $g(\lambda)$}
+& \quad
+& a \lambda^2 + b \lambda + c = 0
+\end{aligned}
 $$
 
-L'integrale generale dell'equazione ha la forma
+$z(x)$ è la soluzione individuata dall'applicazione del metodo risolutivo per
+equazioni differenziali del secondo ordine lineari omogenee all'equazione
+$ay'' + by' + cy = 0$.
 
-$$y(x) = z(x) + \phi(x)$$
+Per individuare $\phi(x)$:
 
-dove $z(x)$ è l'integrale generale dell'omogenea associata e 
-$\phi(x)$ è una soluzione particolare dell'equazione non omogenea.
+1. Se $d(x)$ è un polinomio di grado $n$:
 
-Definiamo $g(\lambda)$ l'equazione di secondo grado in $\lambda$ associata
-all'equazione di secondo ordine omogenea associata.
-
-Per trovare $z(x)$ va risolta l'equazione omogenea associata dell'equazione
-di partenza.
-
-Per trovare $\phi(x)$:
-
-1. Se $c(x)$ è un polinomio di grado $n$:
-
-   1. Se $g(\lambda)$ NON ammette come soluzione $0$, $\phi(x)$ è un polinomio 
-      di grado $n$.
-   2. Se $g(\lambda)$ ammette come soluzione $0$ con molteplicità $1$, cioè $a \neq 0$
-      e $b = 0$, allora $\phi(x) = x p_n$
-   3. Se $g(\lambda)$ ammette come soluzione $0$ con molteplicità $2$, cioè 
-      $a = b = 0$, allora $\phi(x) = x^2 p_n$
+   1. Se $\lambda_{1,2} \neq 0$ allora $\phi(x)$ è un polinomio di grado $n$
+   2. Se $\lambda_1 = 0$ e $\lambda_2 \neq 0$ allora $\phi(x) = x p_n$
+   3. Se $\lambda_1 = \lambda_2 = 0$ allora $\phi(x) = x^2 p_n$
 
 2. Se $c(x) = p_n(x) e^{\alpha x}$:
 
-   1. Se $\alpha$ NON è soluzione di $g(\lambda)$ allora $\phi(x) = 
-      p_n(x) e^{\alpha x}$
-   2. Se $\alpha$ è soluzione di $g(\lambda)$ con molteplicità $r$ allora $\phi(x)
-      = x^r p_n(x) e^{\alpha x}$
+   1. Se $\alpha \neq \lambda_{1,2}$ allora $\phi(x) = p_n(x) e^{\alpha x}$
+   2. Se $\alpha$ è soluzione di $g(\lambda)$ con molteplicità $r$ allora
+      $\phi(x) = x^r p_n(x) e^{\alpha x}$
 
 3. Se $c(x) = p_{1n}(x) e^{\alpha x} cos(\beta x) + 
-   p_{2n}(x) e^{\alpha x} sin(\beta x)$ allora:
+   p_{2n}(x) e^{\alpha x} sin(\beta x)$:
 
-   1. Se $\alpha + i \beta$ NON è soluzione di $g(\lambda)$:
-      $\phi(x) = e^{\alpha x} (A(x) cos(\beta x) + 
-      B(x) sin(\beta x))$, dove $A(x)$ e $B(x)$ sono polinomi di grado NON 
-      superiore al grado massimo tra $p_1n(x)$ e $p_2n(x)$
-   2. Se $\alpha + i \beta$ è soluzione di $g(\lambda)$:
-      $\phi(x) = x e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$.
+   1. Se $(\alpha + i \beta) \neq \lambda$ allora
+      $\phi(x) = e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$,
+      dove $A(x)$ e $B(x)$ sono polinomi di grado NON superiore al grado
+      massimo tra $p_1n(x)$ e $p_2n(x)$
+   2. Se $(\alpha + i \beta) = \lambda$ allora
+      $\phi(x) = x e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$
 
-4. Se $c(x) = c_1(x) + c_2(x)$ è possibile applicare uno dei procedimenti 
-   precedenti, una volta per $c_1(x)$ e una volta per $c_2(x)$. La risultante 
-   funzione $\phi (x)$ sarà la somma delle $\phi$ derivate da $c_1(x)$ e 
-   $c_2(x)$.
+4. Se $c(x) = c_1(x) + c_2(x)$ si applica uno dei metodi precedenti a
+   $c_1(x)$ e uno a $c_2(x)$. Essi produrranno due funzioni, rispettivamente
+   $\phi_1(x)$ e $\phi_2(x)$. $\phi(x) = \phi_1(x) + \phi_2(x)$
 
 # Integrale con A e B
 Si consideri un integrale del tipo $\int {\frac {k}{(x^2 - 1)} dx}$
