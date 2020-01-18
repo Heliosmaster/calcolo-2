@@ -175,20 +175,3 @@ Per individuare $\phi(x)$:
 4. Se $c(x) = c_1(x) + c_2(x)$ si applica uno dei metodi precedenti a
    $c_1(x)$ e uno a $c_2(x)$. Essi produrranno due funzioni, rispettivamente
    $\phi_1(x)$ e $\phi_2(x)$. $\phi(x) = \phi_1(x) + \phi_2(x)$
-
-# Integrale con A e B
-Si consideri un integrale del tipo $\int {\frac {k}{(x^2 - 1)} dx}$
-$$
-\frac {k}{(x^2 - 1)} = \frac {k}{(x-1)(x+1)} = \frac {A}{x-1} + \frac {B}{x+1}
-= \frac {A(x + 1) + B(x - 1)}{(x - 1)(x + 1)}
-$$
-$$
-\frac {(A + B)x + A - B}{(x + 1)(x - 1)}
-$$
-Per trovare le due costanti A e B:
-$$
-\begin{cases}
-A + B = 0\\
-A - B = k
-\end{cases}
-$$
