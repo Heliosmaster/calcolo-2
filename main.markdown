@@ -69,8 +69,8 @@ $$
 
 $$
 \begin{cases}
-x = \rho cos \theta \\
-y = \rho sin \theta
+x = \rho \, cos \theta \\
+y = \rho \, sin \theta
 \end{cases}
 % ----------
 \qquad
@@ -162,7 +162,7 @@ Per individuare $\phi(x)$:
 
    1. Se $(\alpha + i \beta) \neq \lambda$ allora
       $\phi(x) = e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$,
-      dove $A(x)$ e $B(x)$ sono polinomi di grado NON superiore al grado
+      dove $A(x)$ e $B(x)$ sono polinomi di grado **non** superiore al grado
       massimo tra $p_1n(x)$ e $p_2n(x)$
    2. Se $(\alpha + i \beta) = \lambda$ allora
       $\phi(x) = x e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$
