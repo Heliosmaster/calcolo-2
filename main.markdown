@@ -52,7 +52,7 @@ Nel caso in cui, in uno studio di funzione, il determinante della matrice
 Hessiana sia 0, va calcolato il piano tangente alla funzione per determinare
 la natura del punto.
 
-Per calcolare l'equazione del piano tangente, occorre risolvere:
+Per calcolare l'equazione del piano tangente occorre risolvere:
 
 $$
 det
@@ -88,9 +88,9 @@ a(x) \, y' = b(x) \, y + c(x)
 % ----------
 y' = \underbrace{\frac{b(x)}{a(x)}}_{p(x)} y
      + \underbrace{\frac{c(x)}{a(x)}}_{q(x)}
-$$
-
-$$
+% ----------
+\quad \Longrightarrow \quad
+% ----------
 y = e^{\int p(x) \, dx} \int e^{- \int p(x) \, dx} \, q(x) \, dx
 $$
 
