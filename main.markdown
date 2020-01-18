@@ -7,14 +7,14 @@ del sistema con $f_x(x, y) = 0$ e $f_y(x, y) = 0$ sono i punti critici.
 
 Per determinare la tipologia di un punto critico si calcolano $f_xx$,
 $f_{xy}$ e $f_{yy}$ e con tali derivate parziali si costruisce la relativa
-matrice Hessiana.
+matrice Hessiana $\mathcal{H}(x, y)$.
 
-* Se $det(H(\overline{x}, \overline{y})) < 0$ allora
+* Se $det(\mathcal{H}(\overline{x}, \overline{y})) < 0$ allora
   $(\overline{x}, \overline{y})$ è un punto di flesso
-* Se $det(H(\overline{x}, \overline{y})) > 0$ e
+* Se $det(\mathcal{H}(\overline{x}, \overline{y})) > 0$ e
   $f_{xx}(\overline{x}, \overline{y}) < 0$ allora
   $(\overline{x}, \overline{y})$ è un punto di massimo
-* Se $det(H(\overline{x}, \overline{y})) > 0$ e
+* Se $det(\mathcal{H}(\overline{x}, \overline{y})) > 0$ e
   $f_{xx}(\overline{x}, \overline{y}) > 0$ allora
   $(\overline{x}, \overline{y})$ è un punto di minimo
 
