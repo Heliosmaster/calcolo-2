@@ -110,12 +110,12 @@ $$
 \end{aligned}
 $$
 
-1. Se $\lambda_1 \neq \lambda_2$:
-   la soluzione è $y = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}$
-2. Se $\lambda_1 = \lambda_2$
-   la soluzione è $y = e^{\lambda x} (c_1 + c_2 x)$
-3. Se $\lambda_{1,2}$ sono $(\alpha \pm i \beta)$
-   la soluzione è $y = e^{\alpha x} (c_1 cos(\beta x) + c_2 sin(\beta x))$
+1. Se $\lambda_1 \neq \lambda_2$ la soluzione è
+   $y = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}$
+2. Se $\lambda_1 = \lambda_2$ la soluzione è
+   $y = e^{\lambda x} (c_1 + c_2 x)$
+3. Se $\lambda_{1,2}$ sono $(\alpha \pm i \beta)$ la soluzione è
+   $y = e^{\alpha x} (c_1 cos(\beta x) + c_2 sin(\beta x))$
 
 # Equazioni differenziali del secondo ordine lineari non omogenee
 
