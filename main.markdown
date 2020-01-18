@@ -145,17 +145,22 @@ $ay'' + by' + cy = 0$.
 
 Per individuare $\phi(x)$:
 
-1. Se $d(x)$ è un polinomio di grado $n$:
+1. Se $d(x)$ è un polinomio $p_n(x)$ di grado $n$:
 
-   1. Se $\lambda_{1,2} \neq 0$ allora $\phi(x)$ è un polinomio di grado $n$
-   2. Se $\lambda_1 = 0$ e $\lambda_2 \neq 0$ allora $\phi(x) = x p_n$
-   3. Se $\lambda_1 = \lambda_2 = 0$ allora $\phi(x) = x^2 p_n$
+   1. Se $\lambda_{1,2} \neq 0$ allora $\phi(x)$ è un polinomio
+      $\overline{p}_n(x)$ di grado $n$. Per $n = 0$, $\phi(x) = A$;
+      per $n = 1$, $\phi(x) = Ax + B$, \dots
+   2. Se $\lambda_1 = 0$ e $\lambda_2 \neq 0$ allora
+      $\phi(x) = x \overline{p}_n$
+   3. Se $\lambda_1 = \lambda_2 = 0$ allora
+      $\phi(x) = x^2 \overline{p}_n$
 
 2. Se $c(x) = p_n(x) e^{\alpha x}$:
 
-   1. Se $\alpha \neq \lambda_{1,2}$ allora $\phi(x) = p_n(x) e^{\alpha x}$
+   1. Se $\alpha \neq \lambda_{1,2}$ allora
+      $\phi(x) = \overline{p}_n(x) e^{\alpha x}$
    2. Se $\alpha$ è soluzione di $g(\lambda)$ con molteplicità $r$ allora
-      $\phi(x) = x^r p_n(x) e^{\alpha x}$
+      $\phi(x) = x^r \overline{p}_n(x) e^{\alpha x}$
 
 3. Se $c(x) = p_{1n}(x) e^{\alpha x} cos(\beta x) + 
    p_{2n}(x) e^{\alpha x} sin(\beta x)$:
