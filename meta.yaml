@@ -1,3 +1,10 @@
 ---
 title: Formulario di Calcolo II
 lang: it
+papersize: a4
+documentclass: article
+geometry:
+    - top=2cm
+    - right=2cm
+    - bottom=2.5cm
+    - left=2cm
