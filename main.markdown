@@ -94,28 +94,27 @@ y' = \underbrace{\frac{b(x)}{a(x)}}_{p(x)} y
 y = e^{\int p(x) \, dx} \int e^{- \int p(x) \, dx} \, q(x) \, dx
 $$
 
-# Equazioni differenziali del secondo ordine omogenee
-
-$$
-y'' + p(x) y' + q(x) y = 0
-$$
-
-Ammesso che p(x) e q(x) sono costanti
+# Equazioni differenziali del secondo ordine lineari omogenee
 
 $$
 \begin{aligned}
-a y'' + b y' + c y &= 0 \\
-a \lambda^2 + b \lambda + c &= 0
+& \text{Data una eq. differenziale}
+& \quad
+& a y'' + b y' + c y = 0
+% ----------
+\\
+% ----------
+& \text{Si costruisce una eq. associata}
+& \quad
+& a \lambda^2 + b \lambda + c = 0
 \end{aligned}
 $$
-
-Si calcolano i valori di $\lambda_{1,2}$
 
 1. Se $\lambda_1 \neq \lambda_2$:
    la soluzione è $y = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}$
 2. Se $\lambda_1 = \lambda_2$
    la soluzione è $y = e^{\lambda x} (c_1 + c_2 x)$
-3. Se $\lambda_{1,2}$ sono complessi e coniugati
+3. Se $\lambda_{1,2}$ sono $(\alpha \pm i \beta)$
    la soluzione è $y = e^{\alpha x} (c_1 cos(\beta x) + c_2 sin(\beta x))$
 
 # Equazioni differenziali del secondo ordine non omogenee
