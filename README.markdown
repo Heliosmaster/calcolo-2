@@ -1,4 +1,4 @@
-# Appunti di matematica discreta
+# Formulario di Calcolo II
 
 ## Dipendenze
 
@@ -23,8 +23,7 @@ del documento Markdown.
 
 ## Compilazione
 
+* `make all` (o `make`) è un alias di `make main.pdf`
 * `make main.pdf` genera un file pdf
-* `make main.html` genera un file html
-* `make all` (o `make`) genera entrambi
 * `make clean` rimuove i file generati
 * `make lint` esegue il lint del sorgente
