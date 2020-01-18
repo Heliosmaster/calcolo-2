@@ -151,26 +151,26 @@ Per individuare $\phi(x)$:
       $\overline{p}_n(x)$ di grado $n$. Per $n = 0$, $\phi(x) = A$;
       per $n = 1$, $\phi(x) = Ax + B$, \dots
    2. Se $\lambda_1 = 0$ e $\lambda_2 \neq 0$ allora
-      $\phi(x) = x \overline{p}_n$
+      $\phi(x) = x \, \overline{p}_n$
    3. Se $\lambda_1 = \lambda_2 = 0$ allora
-      $\phi(x) = x^2 \overline{p}_n$
+      $\phi(x) = x^2 \, \overline{p}_n$
 
-2. Se $c(x) = p_n(x) e^{\alpha x}$:
+2. Se $c(x) = p_n(x) \, e^{\alpha x}$:
 
    1. Se $\alpha \neq \lambda_{1,2}$ allora
-      $\phi(x) = \overline{p}_n(x) e^{\alpha x}$
+      $\phi(x) = \overline{p}_n(x) \, e^{\alpha x}$
    2. Se $\alpha$ è soluzione di $g(\lambda)$ con molteplicità $r$ allora
-      $\phi(x) = x^r \overline{p}_n(x) e^{\alpha x}$
+      $\phi(x) = x^r \, \overline{p}_n(x) \, e^{\alpha x}$
 
-3. Se $c(x) = p_{1n}(x) e^{\alpha x} cos(\beta x) + 
-   p_{2n}(x) e^{\alpha x} sin(\beta x)$:
+3. Se $c(x) = p_{1n}(x) \, e^{\alpha x} \, cos(\beta x) + 
+   p_{2n}(x) \, e^{\alpha x} \, sin(\beta x)$:
 
    1. Se $(\alpha + i \beta) \neq \lambda$ allora
-      $\phi(x) = e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$,
+      $\phi(x) = e^{\alpha x} (A(x) \, cos(\beta x) + B(x) \, sin(\beta x))$,
       dove $A(x)$ e $B(x)$ sono polinomi di grado **non** superiore al grado
       massimo tra $p_1n(x)$ e $p_2n(x)$
    2. Se $(\alpha + i \beta) = \lambda$ allora
-      $\phi(x) = x e^{\alpha x} (A(x) cos(\beta x) + B(x) sin(\beta x))$
+      $\phi(x) = x \, e^{\alpha x} (A(x) \, cos(\beta x) + B(x) \, sin(\beta x))$
 
 4. Se $c(x) = c_1(x) + c_2(x)$ si applica uno dei metodi precedenti a
    $c_1(x)$ e uno a $c_2(x)$. Essi produrranno due funzioni, rispettivamente
