@@ -69,14 +69,14 @@ $$
 
 $$
 \begin{cases}
-x = \rho \, cos \theta \\
-y = \rho \, sin \theta
+x = \rho \, cos \vartheta \\
+y = \rho \, sin \vartheta
 \end{cases}
 % ----------
 \qquad
 % ----------
 \iint \limits_D f(x, y) \, dx \, dy =
-\iint \limits_{D'} \rho \, g(\rho, \theta) \, d\rho \, d\theta
+\iint \limits_{D'} \rho \, g(\rho, \vartheta) \, d\rho \, d\vartheta
 $$
 
 # Equazioni differenziali del primo ordine non omogenee
