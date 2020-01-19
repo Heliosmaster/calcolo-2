@@ -10,7 +10,7 @@ $f_{xy}$ e $f_{yy}$ e con tali derivate parziali si costruisce la relativa
 matrice Hessiana $\mathcal{H}(x, y)$.
 
 * Se $det(\mathcal{H}(\overline{x}, \overline{y})) < 0$ allora
-  $(\overline{x}, \overline{y})$ è un punto di flesso
+  $(\overline{x}, \overline{y})$ è un punto di sella
 * Se $det(\mathcal{H}(\overline{x}, \overline{y})) > 0$ e
   $f_{xx}(\overline{x}, \overline{y}) < 0$ allora
   $(\overline{x}, \overline{y})$ è un punto di massimo
