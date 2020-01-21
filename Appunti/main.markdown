@@ -29,3 +29,16 @@ $$
 
 [^limit]: Adams, Robert; Essex, Christopher. Calculus: A Complete Course
           (7th ed.). \S 12.2, p. 677. 
+
+# Derivate direzionali
+
+Dati un versore $\hat{u} = (a, b)$ e la propria origine $(x, y)$, si
+considera sulla retta individuata dal versore $\hat{u}$ un punto mobile
+con equazione $(x + ta, y + tb).
+
+La derivata direzionale è
+
+$$
+\lim_{t \to 0} \frac{f(x + ta, y + tb) - f(x, y)}{t}
+= \frac{df}{d \hat{u}} = f_x a + f_y b
+$$
