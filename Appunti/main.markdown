@@ -56,20 +56,20 @@ $$
 
 Si considera una primitiva $P(x)$ di $p(x)$. Quindi $P(x) = \int p(x) dx$.
 
-Si moltiplicano entrambi i membri per $e^{P(x)}$ e si individua facilmente
-la derivata del primo.
+Si moltiplicano entrambi i membri per il termine integrante $e^{P(x)}$ e si
+individua facilmente la derivata del primo membro.
 
 $$
 \underbrace{e^{P(x)} y' + e^{P(x)} p(x)}_{\textstyle{\frac{d}{dx} e^{P(x)} y(x)}}
 = e^{P(x)} q(x)
 $$
 
-Quindi si integrano i membri.
+Quindi si integrano entrambi i membri.
 
 $$
 \begin{aligned}
 \int e^{P(x)} y' + e^{P(x)} p(x) y &= \int e^{P(x)} q(x) dx \\
 e^{P(x)} y &= \int e^{P(x)} q(x) dx + c \\
-y &= e^{-P(x)} \int e^{P(x)} q(x) dx + e^{-P(x)} c \\
+y &= e^{-P(x)} \int e^{P(x)} q(x) dx + e^{-P(x)} c
 \end{aligned}
 $$
