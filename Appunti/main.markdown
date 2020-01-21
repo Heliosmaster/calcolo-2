@@ -34,7 +34,7 @@ $$
 
 Dati un versore $\hat{u} = (a, b)$ e la propria origine $(x, y)$, si
 considera sulla retta individuata dal versore $\hat{u}$ un punto mobile
-con equazione $(x + ta, y + tb).
+con equazione $(x + ta, y + tb)$.
 
 La derivata direzionale è
 
@@ -64,7 +64,7 @@ $$
 = e^{P(x)} q(x)
 $$
 
-Quindi si integrano i membri
+Quindi si integrano i membri.
 
 $$
 \begin{aligned}
